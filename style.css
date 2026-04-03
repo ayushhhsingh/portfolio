@@ -526,7 +526,7 @@ nav {
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
 }
 
-/* Tech Stack */
+/* Tech Stack Categories */
 .card-header {
     display: flex;
     align-items: center;
@@ -544,31 +544,44 @@ nav {
     font-weight: 600;
 }
 
-.skill-bar {
+.skill-category {
     margin-bottom: 1.5rem;
 }
 
-.skill-info {
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.75rem;
-    color: #888;
-    margin-bottom: 0.5rem;
+.skill-category:last-child {
+    margin-bottom: 0;
+}
+
+.skill-label {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.8rem;
     letter-spacing: 1px;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
-.progress-track {
-    height: 4px;
-    background: #222;
-    border-radius: 2px;
-    overflow: hidden;
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
 }
 
-.progress-fill {
-    height: 100%;
-    background: linear-gradient(90deg, #ff4d4d, #ff8c4d);
-    border-radius: 2px;
+.tag {
+    background: rgba(255, 77, 77, 0.1);
+    color: #ff4d4d;
+    border: 1px solid rgba(255, 77, 77, 0.2);
+    padding: 6px 12px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: var(--transition-smooth);
+}
+
+.tag:hover {
+    background: #ff4d4d;
+    color: #fff;
 }
 
 /* Inquiry Card */
