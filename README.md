@@ -1,9 +1,6 @@
 # 🚀 Ayush Singh — Portfolio
 
 A personal portfolio website built with pure **HTML**, **CSS**, and **JavaScript** — showcasing my projects, skills, and contact information.
-
-![Portfolio Preview](assets/avatar.png)
-
 ---
 
 ## 🌐 Live Demo
