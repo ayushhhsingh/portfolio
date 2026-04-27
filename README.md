@@ -1,4 +1,4 @@
-# 🚀 Ayush Singh — Portfolio
+#  Ayush Singh — Portfolio
 
 A personal portfolio website built with pure **HTML**, **CSS**, and **JavaScript** — showcasing my projects, skills, and contact information.
 ---
